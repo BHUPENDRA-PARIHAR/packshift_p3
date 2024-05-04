@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: white;
+}
+
+nav{
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+nav figure img{
+    width: 100%;
+}
+nav button{
+    padding: 8px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px 20px 0 20px;
+    border: none;
+    animation:navButtonAnimation 1s infinite linear;
+}
+@keyframes navButtonAnimation{
+    50%{
+        background-color: #0862AB;
+    }
+    100%{
+        background-color: #FFCF40 ;
+    }
+}
+
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.section-1{
+    background-image: url(https://packshifts.in/images/banner.jpg);
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 80px 0;
+    align-items: center;
+}
+
+.banner-content{
+    width: 60%;
+}
+
+.banner-form{
+    width: 40%;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f3f3f3;
+}
+
+.banner-form form > input{
+    width: 100%;
+    padding: 6px;
+    margin: 6px 0;
+    border-color: 1px solid darkgrey ;
+}
+
+.banner-form form >h2{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-form form >div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.banner-form form >div input{
+    width: 100%;
+    padding: 6px;
+    margin: 6px 0;
+}
+
+.banner-form form >div input:first-child{
+    border-color: 1px solid darkgrey ;
+}
+
+.banner-form form >div input:last-child{
+    border-color: 1px solid darkgrey;
+    border: none;
+    background-color: #FFCF40;
+    text-align: center;
+}
+
+.banner-form form > p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.banner-form form >p a{
+    color: #0862AB ;
+}
+
+.banner-form form > button{
+    text-transform:uppercase ;
+    width: 100%;
+    padding: 6px 0;
+    border: none;
+    background-color: #0862AB;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+
+.banner-form form > button:hover{
+   background-image: linear-gradient(170deg,#C8DE50 15%, #035FAE); 
+  
+}
+
+
+.banner-content{
+    color: white;
+}
+.banner-content >div{
+    display: flex;
+    margin-top: 30px;
+}
+
+.banner-content > h3{
+    margin: 30px 0;
+    font-size: 22px;
+
+}
+
+.banner-content > p{
+    font-size: 18px;
+}
+
+.section-2{
+    padding: 20px 0;
+}
+
+.section-2 .container h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    margin: 10px 0;
+    color: #035FAE;
+}
+
+.section-2 .container h1 i{
+    margin-right: 10px;
+}
+
+.section-2 .container h1 span{
+    color: #FFCF40;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+}
+
+.videos-inner{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap :30px
+}
+
+.videos-inner iframe{
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.videos-inner h3{
+    text-align: center;
+    margin-top: 10px;
+    color: #035FAE;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    text-transform: capitalizes;
+}
+
+.moving-truck{
+    position: fixed;
+    bottom: 9px;
+    animation: truckmove 10s infinite linear;
+}
+
+.truck-wheel{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px 0 20px;
+    position: absolute;
+    top:85%; 
+}
+
+.truck-wheel img{
+    animation: wheel-rotate 1s infinite linear;
+}
+
+@keyframes wheel-rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes truckmove{
+    from{
+        left:-20%
+    }
+    to{
+        left:120%
+    }
+}
+
+.section-3{
+    background-color: #F4F4F4;
+    padding-top: 10px;
+}
+.ourservices{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    
+}
+
+.inner-img{
+    height: 350px;
+    width: 100%;
+    background-image: url(https://packshifts.in/images/house-shifting.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.section-3 .container h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    margin: 10px 0;
+    color: #035FAE;
+}
+
+.section-3 .container h1 i{
+    margin-right: 10px;
+}
+
+.section-3 .container h1 span{
+    color: #FFCF40;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+}
+.inner-content{
+    text-align: center;
+}
+.inner-content p{
+    text-align: justify;
+    padding: 0 10px ;
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+}
+
+.inner-content h2{
+    padding: 10px 0;
+    text-align: center;
+    color: #035FAE;
+    text-transform: uppercase;
+}
+
+.inner-content button{
+    margin: 10px 0;
+    padding: 6px 20px;
+    text-align: center;
+    color: #035FAE;
+    border: none;
+    background-color:#FFD040;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+}
+
+.house-shifting{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 20px;
+}

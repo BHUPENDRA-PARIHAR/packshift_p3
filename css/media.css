@@ -1,0 +1,64 @@
+@media only screen and (max-width:992px){
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .banner-content{
+        width: 60%;
+    }
+    
+    .banner-form{
+        width: 40%;
+        padding: 20px;
+        border-radius: 15px;
+        background-color: #f3f3f3; 
+}
+.videos-inner{
+    grid-template-columns: 1fr 1fr ;
+    gap :20px
+}
+}
+
+@media only screen and (max-width:667px){
+    nav figure{
+        width: 25vw;
+    }
+    nav button{
+        padding: 3vw 4vw;
+        font-size: 3vw;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-content{
+        text-align: center;
+        width: 100%;
+    }
+    .banner-form{
+        width: 80%;
+    }
+
+    .banner-content h1{
+        font-size: 4vw;
+    }
+    .banner-content h3{
+        font-size: 3vw;
+    }
+    .banner-content p{
+        font-size: 2.5vw;
+    }
+
+    .banner-content > div{
+        justify-content: center;
+    }
+    .videos-inner{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .section-2 .container h1 {
+        font-size: 5vw;
+    }
+    .videos-inner{
+        padding: 0px;
+}
+}
