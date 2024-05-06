@@ -124,15 +124,12 @@ nav button{
     color: white;
     font-size: 18px;
     font-weight: 400;
-    cursor: pointer;
-    
+    cursor: pointer;  
 }
-
 .banner-form form > button:hover{
    background-image: linear-gradient(170deg,#C8DE50 15%, #035FAE); 
   
 }
-
 
 .banner-content{
     color: white;
@@ -234,21 +231,7 @@ nav button{
 .section-3{
     background-color: #F4F4F4;
     padding-top: 10px;
-}
-.ourservices{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
     
-}
-
-.inner-img{
-    height: 350px;
-    width: 100%;
-    background-image: url(https://packshifts.in/images/house-shifting.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px 20px 0px 0px;
 }
 
 .section-3 .container h1{
@@ -259,48 +242,212 @@ nav button{
     margin: 10px 0;
     color: #035FAE;
 }
-
-.section-3 .container h1 i{
-    margin-right: 10px;
-}
-
 .section-3 .container h1 span{
     color: #FFCF40;
     font-family: "Lato", sans-serif;
     font-weight: 800;
 }
-.inner-content{
-    text-align: center;
-}
-.inner-content p{
-    text-align: justify;
-    padding: 0 10px ;
-    font-size: 14px;
-    font-family: "Lato", sans-serif;
+.ourservices{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 50px;
 }
 
-.inner-content h2{
-    padding: 10px 0;
-    text-align: center;
-    color: #035FAE;
-    text-transform: uppercase;
-}
-
-.inner-content button{
-    margin: 10px 0;
-    padding: 6px 20px;
-    text-align: center;
-    color: #035FAE;
-    border: none;
-    background-color:#FFD040;
-    border-radius: 5px;
-    text-transform: capitalize;
-    font-weight: 700;
-    font-family: "Lato", sans-serif;
+.inner-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
 }
 
 .house-shifting{
     margin-top: 10px;
     background-color: white;
     border-radius: 20px;
+    text-align: center;
 }
+.office-shifting{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+.car-shifting{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+.bike-shifting{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.inner-content h2{  
+    padding: 10px 0 ;    
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    color: #035FAE;
+}
+
+.inner-content p{
+    padding: 0 15px;
+    text-align: justify;
+    font-family: "Lato", sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    color: rgb(108,103, 123);
+}
+
+.inner-content button{
+    text-align: center;
+    font-family:"Lato", sans-serif ;
+    background-color: #FFCF40;
+    border: none;
+    padding: 8px 25px;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: capitalize;
+    box-shadow: 0px 4px 14px rgb(0 0 0 / 25%);
+}
+
+.office-shifting .inner-content button{
+    margin-top: 45px;
+}
+
+.car-shifting .inner-content button{
+    margin-top: 70px;
+}
+
+.section-4 .container h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    margin: 10px 0;
+    color: #035FAE;
+    padding-top: 20px;
+}
+.section-4 .container h1 span{
+    color: #FFCF40;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+}
+
+.section-4 h2{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px 0;
+}
+.over-services{
+    text-align: center;
+    background-color: #F4F4F4;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.over-services{
+    padding-top: 20px;
+}
+
+.section-5{
+    margin-top: 50px;
+    background-color: #3675D7;
+    color: white;
+}
+
+.section-5 h1{
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    padding-top: 30px;
+    text-align: center;
+}
+.section-5 h3{
+    font-family: "Lato", sans-serif;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.experience{
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.yearexp{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.section-6{
+    margin-top: 50px;
+}
+
+.section-6 .container h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    margin: 10px 0;
+    color: #035FAE;
+    margin-bottom: 30px;
+}
+.section-6 .container h1 span{
+    color: #FFCF40;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+}
+
+.review{
+    background-color: #3675D7;
+    color: white;
+    min-height: 312px;
+    max-width: 850px;
+    border-radius: 20px;
+    margin-left: 150px;
+    place-content: center;
+    position: relative;
+}    
+
+.review i{
+    font-size: 16px;
+    margin-left:  150px;
+}
+
+.review p{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 80px 0 165px;
+    line-height: 24px;
+}
+
+.customer-img{
+    background-color: #FFCF40;
+    border-radius: 0 8px 0 8px;
+    position: absolute;
+    left: -70px;
+    top: 20%;
+}
+
+.customer-img h6{
+    text-align: center;
+    font-size: 15px; 
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+   
