@@ -63,6 +63,10 @@ nav button{
     width: 60%;
 }
 
+.banner-content h1{
+    font-size: 28px;
+}
+
 .banner-form{
     width: 40%;
     padding: 20px;
@@ -191,7 +195,7 @@ nav button{
     color: #035FAE;
     font-family: "Lato", sans-serif;
     font-weight: 800;
-    text-transform: capitalizes;
+    text-transform: capitalize;
 }
 
 .moving-truck{
@@ -246,6 +250,10 @@ nav button{
     color: #FFCF40;
     font-family: "Lato", sans-serif;
     font-weight: 800;
+}
+
+.section-3 .container h1 i{
+    margin-right: 10px;
 }
 .ourservices{
     display: grid;
@@ -340,6 +348,9 @@ nav button{
     font-family: "Lato", sans-serif;
     font-weight: 800;
 }
+.section-4 .container h1 i{
+    margin-right: 10px;
+}
 
 .section-4 h2{
     padding-top: 20px;
@@ -376,6 +387,9 @@ nav button{
     padding-top: 30px;
     text-align: center;
 }
+.section-5 .container h1 i{
+    margin-right: 10px;
+}
 .section-5 h3{
     font-family: "Lato", sans-serif;
     padding-top: 20px;
@@ -410,6 +424,9 @@ nav button{
     color: #FFCF40;
     font-family: "Lato", sans-serif;
     font-weight: 800;
+}
+.section-6 .container h1 i{
+    margin-right: 10px;
 }
 
 .review{
@@ -450,4 +467,141 @@ nav button{
     text-transform: capitalize;
     padding-bottom: 10px;
 }
-   
+
+.section-7{
+    margin-top: 50px;
+    background-color: #F4F4F4;
+}
+.section-7 .container h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    color: #035FAE;
+    padding: 30px 0;
+}
+.section-7 .container h1 span{
+    color: #FFCF40;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+}  
+.section-7 .container h1 i{
+    margin-right: 10px;
+}
+
+.inner-div{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.ourclient{
+    padding: 0 10px;
+    border-radius: 10px;
+    
+}
+.ourclient img{
+    border-radius: 10px;
+}
+
+.inner-div button{
+    border: none;
+    font-size: 20px;
+    background-color: #F4F4F4;
+}
+
+.section-8{
+    margin-top: 20px;
+    
+}
+.section-8 .container h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    color: #035FAE;
+    padding: 30px 0;    
+}
+.section-8 .container h1 i{
+    margin-right: 10px;
+}
+.section-8 .container h1 span{
+    color: #FFCF40;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+}  
+.branches{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.inner-branch{
+    background-color: #F4F4F4;
+    padding:  20px 10px ;
+    text-align: center;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+
+.inner-branch h3{
+    text-transform: capitalize;
+    padding: 10px 0;
+    font-size: 25px;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+}
+.inner-branch p{
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.inner-branch i{
+    font-size: 50px;
+    color: #FFCF40;
+    
+}
+
+footer{
+    background-color: #F4F4F4;
+    margin-top: 50px;
+}
+
+footer .container h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    color: #035FAE;
+    padding: 30px 0; 
+       
+}
+footer .container h1 i{
+    margin-right: 10px;
+}
+footer .container h1 span{
+    color: #FFCF40;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+} 
+
+.footer-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-content ul li:first-child{
+    font-size: "Lato", sans-serif;
+    font-weight: 500;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-content ul {
+    padding-bottom: 30px
+}
+
+.footer-content ul li{
+    font-family: "Lato", sans-serif;
+    padding-bottom: 5px;
+}
