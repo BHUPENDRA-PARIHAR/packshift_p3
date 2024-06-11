@@ -27,6 +27,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+.branches{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
 }
 
 @media only screen and (max-width:667px){
@@ -75,4 +81,10 @@
     grid-template-columns: 1fr;
     gap: 20px;
 }
+.branches{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
 }
