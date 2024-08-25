@@ -32,7 +32,15 @@
     grid-template-columns: 1fr;
     gap: 20px;
 }
+.inner-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
 
+.footer-content ul li{
+    display: none;
+}
 }
 
 @media only screen and (max-width:667px){
@@ -85,6 +93,15 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
+}
+
+.inner-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-content ul li{
+    display: none;
 }
 
 }

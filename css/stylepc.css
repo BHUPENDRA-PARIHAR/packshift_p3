@@ -497,8 +497,8 @@ nav button{
 
 .inner-div{
     padding-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
 .ourclient{
     padding: 0 10px;
